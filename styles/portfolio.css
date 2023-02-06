@@ -1,0 +1,14 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Distressed', cursive; */
+
+h1 {
+  color: #3faeb2;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
