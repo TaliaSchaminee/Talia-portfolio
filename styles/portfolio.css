@@ -21,9 +21,14 @@ h1 {
   font-size: 66px;
 }
 
+h2 {
+  font-size: 54;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 footer {
@@ -70,4 +75,34 @@ footer a:hover {
   line-height: 27px;
   padding: 15px 30px;
   border: none;
+}
+
+.btn-branding {
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid var(--branding-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 988px) {
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 59px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
