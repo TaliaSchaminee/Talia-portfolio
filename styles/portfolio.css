@@ -211,6 +211,10 @@ footer h4 {
   margin-bottom: -50px;
 }
 
+.nav-icon {
+  color: var(--branding-color);
+}
+
 @media (max-width: 988px) {
   .project-description {
     padding: 0px;
